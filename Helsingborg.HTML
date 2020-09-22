@@ -27,19 +27,17 @@
     font-family: Roboto,system,Segoe UI,Tahoma,-apple-system;
   }
 
-  .image-container{
-    height:350px;
-    width: 400px;
-    position:static;
-  }
+  
+.img-container {
+  margin:30px;
+  float:left;
+}
 
-  .image-contents{
-    padding: 5px;
+.image-contents{
     font-size: 20px;
     font-family: Roboto,system,Segoe UI,Tahoma,-apple-system;
     color:deeppink;
-    text-align:center;
-    position:absolute;
+    padding:10px;
   }
 
   table, th, td {
@@ -48,7 +46,7 @@
 
 th,td {
   height: 35px;
-  width: 500px;
+  width: 400px;
 }
 
   </style>
@@ -80,29 +78,29 @@ th,td {
 
            
 <img src= "https://helsingborg.se/wp-content/uploads/2017/05/strandpromenad-1-anna-alexander-olsson-1800x350-1-1800x350.jpg" 
-height="350" width="1500" style = "margin: 0px,0px,100px,0px">
+height="350" width="1350">
 
-<section>
 
-  <span class="image-container">
+
+  <div class= "img-container">
 
     <a href = "https://helsingborg.se/nyheter/information-om-coronavirussjukdomen-covid-19/">
       <img src = "https://helsingborg.se/wp-content/uploads/2017/05/coronabesk-scaled-800x450.jpg" height = "250" width = "400"> 
     </a>
 
   <p class = "image-contents"> viktig information om corona viruset </p>
-                                                                         </span>
+  </div>
 
- <span class="image container">
+ <div class="image container">
 
     <a href = "https://action.helsingborg.se">
     <img src = "https://helsingborg.se/wp-content/uploads/2017/05/helsingborg-vy-2020-800x450.png" height = "250" width = "400">
     </a>
 
     <p class = "image-contents"> Action Helsingborg</p>
-                                                       </span>
+  </div>
 
-    <span style = "float:right">
+    <div style= "float:right">
       <table style = "border: 1px solid black">
           <tr>
             <th style = "background-color:brown; font-size:25px; color:white;">Vanliga fragor</th>
@@ -123,8 +121,9 @@ height="350" width="1500" style = "margin: 0px,0px,100px,0px">
             <td>Nar far jag mina pengar</td>
           </tr>
                </table>
-                       </span> 
- </section>
+                      </div>
+                             
+                             
 
      </body>
 </html>
